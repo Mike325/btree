@@ -1,9 +1,9 @@
 {
     ".projections.json": {
-        "type": "Projections"
+        "type": "TreeProjections"
     },
     "btree.py": {
-        "type": "BTree"
+        "type": "Tree"
     }
 }
 
