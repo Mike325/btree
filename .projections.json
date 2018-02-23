@@ -3,7 +3,7 @@
         "type": "Projections"
     },
     "btree.py": {
-        "type": "Tree"
+        "type": "BTree"
     }
 }
 
