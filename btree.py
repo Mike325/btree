@@ -115,6 +115,52 @@ class BTree(object):
         """
         pass
 
+    def _promote(self, node):
+        """Promote a node to its parent
+
+        :node: TODO
+        :returns: TODO
+
+        """
+        pass
+
+    def _demote(self, node):
+        """Demote a node to one of its children
+
+        :node: TODO
+        :returns: TODO
+
+        """
+        pass
+
+    def _delete_leaf(self, node):
+        """Remove a leaf from the BTree
+
+        :node: TODO
+        :returns: TODO
+
+        """
+        pass
+
+    def _exchange(self, target, leaf):
+        """Change the position of a node to a leaf
+
+        :target: TODO
+        :leaf: TODO
+        :returns: TODO
+
+        """
+        pass
+
+    def _delete_inner_node(self, node):
+        """Remove a inner element from a node
+
+        :node: TODO
+        :returns: TODO
+
+        """
+        pass
+
     def insert(self, node):
         """Insert an element in the tree
 
